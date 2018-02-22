@@ -1,7 +1,7 @@
 defmodule Coherence.Mixfile do
   use Mix.Project
 
-  @version "0.4.0"
+  @version "0.4.1"
 
   def project do
     [ app: :coherence,
@@ -35,7 +35,7 @@ defmodule Coherence.Mixfile do
   defp deps do
     [
       {:ecto, "~> 2.0"},
-      {:comeonin, "~> 3.0"},
+      {:comeonin, "~> 4.0"},
       # {:phoenix, "~> 1.3.0-rc", override: true},
       {:phoenix, "~> 1.2"},
       {:phoenix_html, "~> 2.6"},
